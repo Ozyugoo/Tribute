@@ -1,5 +1,10 @@
 #container {
-  background-color: #f5faf6;
+  background-color: white;
+  }
+
+#main {
+  background-color: #eee;
+  margin: auto;
 }
 
 * {
@@ -8,28 +13,29 @@
 
 #image {
   width: 80%;
-  max-width: 100%;
+  max-width: 700px;
   justify-content: center;
   align-items: center;
-  max-height: 50hv;
+  max-height: 50vh;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  display:block;
 }
 
 #img-div {
   background-color: white;
-  width: 100hv;
-  margin: 30px;  
+  width: 90%;
+  margin: auto;  
 }
 
 h1 {
+  padding-top: 20px;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
 }
-header > p {
+
+p {
   text-align: center;
 }
 
@@ -43,7 +49,7 @@ header > p {
   padding: 30px
 }
 
-#bold {
+strong {
   font-weight: 600;
   font-size: 16px;
 }
@@ -68,8 +74,6 @@ address {
 
 .tribute-link {
   font-weight: 800;
-  padding: 30px;
-  margin: auto;
-  width: 100%;
+  padding: 30px; 
   text-align: center;
 }
